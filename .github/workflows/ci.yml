@@ -12,7 +12,10 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material==9.4.10
-      - run: pip install mkdocs-exclude
-      - run: pip install mkdocs-roamlinks-plugin
-      - run: mkdocs gh-deploy --force
+
+      - name: Build site
+        run: |
+          pip install mkdocs-material==9.4.10
+          pip install mkdocs-exclude
+          pip install mkdocs-roamlinks-plugin
+          mkdocs gh-deploy --force
