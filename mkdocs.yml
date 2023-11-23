@@ -192,3 +192,48 @@ nav:
       - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
     - Guides:
       - Creating a reproduction: guides/creating-a-reproduction.md
+  - Plugins:
+    - plugins/index.md
+    - Blog: plugins/blog.md
+    - Group: plugins/group.md
+    - Info: plugins/info.md
+    - Meta: plugins/meta.md
+    - Offline: plugins/offline.md
+    - Optimize: plugins/optimize.md
+    - Privacy: plugins/privacy.md
+    - Projects: plugins/projects.md
+    - Search: plugins/search.md
+    - Social: plugins/social.md
+    - Tags: plugins/tags.md
+    - Typeset: plugins/typeset.md
+    - Requirements:
+      - Image processing: plugins/requirements/image-processing.md
+      - Caching: plugins/requirements/caching.md
+  - Reference:
+    - reference/index.md
+    - Admonitions: reference/admonitions.md
+    - Annotations: reference/annotations.md
+    - Buttons: reference/buttons.md
+    - Code blocks: reference/code-blocks.md
+    - Content tabs: reference/content-tabs.md
+    - Data tables: reference/data-tables.md
+    - Diagrams: reference/diagrams.md
+    - Footnotes: reference/footnotes.md
+    - Formatting: reference/formatting.md
+    - Grids: reference/grids.md
+    - Icons, Emojis: reference/icons-emojis.md
+    - Images: reference/images.md
+    - Lists: reference/lists.md
+    - Math: reference/math.md
+    - Tooltips: reference/tooltips.md
+  - Insiders:
+    - insiders/index.md
+    - Getting started: insiders/getting-started.md
+    - FAQ: insiders/faq/sponsoring.md
+    - Changelog:
+      - insiders/changelog/index.md
+      - How to upgrade: insiders/upgrade.md
+    - Community Experts Program:
+      - insiders/community-experts-program/index.md
+  - Blog:
+    - blog/index.md
