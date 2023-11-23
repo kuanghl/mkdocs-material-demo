@@ -16,7 +16,7 @@ jobs:
       - name: Build site
         run: |
           pip install --upgrade pip
-          pip install -U -r requirements.txt
+          # pip install -U -r requirements.txt
           pip install mkdocs-material==9.4.10
           pip install mkdocs-exclude
           # pip install mkdocs-roamlinks-plugin
